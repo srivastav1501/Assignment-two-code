@@ -1,0 +1,116 @@
+.right {
+    width: 100%;
+    min-height: 437px;
+    background-color: #fff;
+    margin: 24px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap
+}
+
+.top,
+.middle,
+.bottom {
+    width: 100%;
+
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+}
+
+.middle {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.lft {
+    width: 48%;
+    margin-right: 30px;
+}
+
+.rght {
+    width: 100%;
+}
+
+.coll {
+    display: flex;
+    width: 48%;
+    flex-direction: column;
+}
+
+.bottom {
+    margin-left: 15px;
+    width: 100%;
+    align-self: flex-end;
+}
+
+.head {
+    width: 100%;
+    padding: 0 12px 0 0;
+    height: 35px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: rgb(39, 24, 126);
+    align-items: center;
+    background-color: rgb(215, 208, 255);
+    border-radius: 4px;
+}
+
+.left_part {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left_part .vline {
+    height: 35px;
+    width: 35px;
+}
+
+.left_part path {
+    height: 100%;
+    width: 100%;
+}
+
+.right_part button {
+    background-color: transparent;
+    border: none;
+    font-size: small;
+}
+
+.others .left-list,
+.holidays .left-list {
+    width: 65%;
+}
+
+.form {
+    position: relative;
+    display: block;
+    top: 0px;
+    padding-bottom: 3rem;
+}
+
+.form div {
+    width: 100%;
+    display: flex;
+}
+
+.rw {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.input-grp {
+    width: calc(96);
+}
+
+.inpt {
+    width: 100%;
+}

@@ -1,0 +1,29 @@
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title button {
+    font-size: large;
+    background-color: transparent;
+    border: none;
+}
+
+.spn {
+    margin-right: 2.5rem;
+}
+
+.error {
+    position: relative;
+    display: block;
+    top: 0;
+    font-weight: 500;
+    color: red;
+}

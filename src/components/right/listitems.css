@@ -1,0 +1,34 @@
+.list-item {
+    width: 100%;
+    min-height: 38.4px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(247, 247, 247);
+    border-bottom: 1px solid gray;
+}
+
+.left-list {
+    width: 20%;
+    margin: auto 30px;
+    font-weight: 600;
+}
+
+.right-list {
+    height: 100%;
+    padding: 10px 50px;
+    width: 80%;
+    background-color: #fff;
+}
+
+.l-list {
+    width: 75%;
+    margin: auto 30px;
+    font-weight: 600;
+}
+
+.r-list {
+    height: 100%;
+    padding: 10px 50px;
+    width: 25%;
+    background-color: #fff;
+}
